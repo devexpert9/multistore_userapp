@@ -1,0 +1,70 @@
+{
+  "_from": "com.cmackay.plugins.googleanalytics@1.0.4",
+  "_id": "com.cmackay.plugins.googleanalytics@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-MiI4oSPRMbdkNg4YUPG6vnqCvpzaZ7tVCvq9lQIR7b/7S/HD/r+05Zx3AErKOxv50ccgNdnvkQ9lkfjaRaioWg==",
+  "_location": "/com.cmackay.plugins.googleanalytics",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "com.cmackay.plugins.googleanalytics@1.0.4",
+    "name": "com.cmackay.plugins.googleanalytics",
+    "escapedName": "com.cmackay.plugins.googleanalytics",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/com.cmackay.plugins.googleanalytics/-/com.cmackay.plugins.googleanalytics-1.0.4.tgz",
+  "_shasum": "b02e9ec793fbdcf611914495774e99ce3911aa25",
+  "_spec": "com.cmackay.plugins.googleanalytics@1.0.4",
+  "_where": "E:\\Karenderia Mobile App\\kmrsmobile",
+  "author": {
+    "name": "Craig MacKay"
+  },
+  "bugs": {
+    "url": "https://github.com/cmackay/google-analytics-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.cmackay.plugins.googleanalytics",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Plugin for Google Analytics Native SDKs (Android, iOS)",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^1.1.1",
+    "rimraf": "^2.4.3"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/cmackay/google-analytics-plugin#readme",
+  "keywords": [
+    "cordova",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "com.cmackay.plugins.googleanalytics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmackay/google-analytics-plugin.git"
+  },
+  "scripts": {
+    "docs": "rimraf README.md && cat prefix.md > README.md && ./node_modules/.bin/jsdoc2md ./www/*.js >> README.md"
+  },
+  "version": "1.0.4"
+}

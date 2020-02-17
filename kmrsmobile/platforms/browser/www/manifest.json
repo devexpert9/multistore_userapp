@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Delicious Food",
+  "short_name": "Delicious Food",
+  "version": "com.Deliciousfood.mobileapp",
+  "description": "Delicious Food",
+  "author": "Deliciousfood.com",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}
